@@ -38,5 +38,3 @@
 #### Uproszczenia:
 - Brak niedźwiedzi oznacza, że nie ma potrzeby zarządzania dodatkowym alkoholem, co upraszcza logikę zarządzania zasobami i żądaniami.
 - Algorytm skupia się tylko na logistyce miejsc, co pozwala na bardziej przewidywalne i prostsze zarządzanie zasobami i potrzebami zajączków.
-
-Ten uproszczony algorytm jest zoptymalizowany do scenariusza, gdzie tylko zajączki uczestniczą w zarządzaniu dostępem do polan, co ułatwia organizację i zapewnia sprawiedliwy dostęp do zasobów imprezowych.
