@@ -1,6 +1,4 @@
-Mój przeoczenie! Powinienem był uwzględnić logikę obsługi zapotrzebowania na dodatkowy alkohol dla niedźwiedzi w pierwotnym algorytmie, ponieważ to ważny element scenariusza, gdzie niedźwiedzie uczestniczą w imprezach razem z zajączkami. W szczególności, gdy niedźwiedź dołącza do imprezy, zajączki muszą dostarczyć dodatkowy alkohol. Dziękuję za zwrócenie na to uwagi. Poniżej przedstawiam poprawiony algorytm, który uwzględnia tę wymaganą funkcjonalność.
-
-### Poprawiony Algorytm Zarządzania Imprezami w Lesie dla Zajączków i Niedźwiedzi
+### Algorytm Zarządzania Imprezami w Lesie dla Zajączków i Niedźwiedzi
 
 #### Struktury i zmienne:
 - **`WaitQueue`:** Kolejka procesów oczekujących na ACK dla każdej polany, początkowo pusta.
@@ -39,5 +37,3 @@ do stanu `REST`.
 
 6. **Przetwarzanie kolejnych żądań:**
     - Procesy odbierające `RELEASE` aktualizują `AvailableSpaces` i `AlcoholRequirements` i przetwarzają żądania z `WaitQueue`, które teraz mogą być zaakceptowane, wysyłając `ACK` tam, gdzie to możliwe.
-
-Ten algorytm teraz odpowiednio zarządza zapotrzebowaniem na dodatkowy alkohol dla niedźwiedzi, zapewniając, że wszystkie wymagania logistyczne są spełnione przed przyjęciem gości na imprezę.
